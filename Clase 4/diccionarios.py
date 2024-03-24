@@ -29,10 +29,10 @@ lista = [29, -5, -12, 17, 5, 24, 5, 12, 23, 16, 12, 5, -12, 17]
 Nota: Recuerda que para sumar todos los números de una lista puedes usar sum
 """
 lista = [29, -5, -12, 17, 5, 24, 5, 12, 23, 16, 12, 5, -12, 17]
-lista = dict
-lista = list
-lista.sort(reverse=True)
-print(lista)
+sin_duplicados = set(lista)
+print(sin_duplicados)
+#lista.sort(reverse=True)
+print(type(lista))
 
 
 
