@@ -1,0 +1,13 @@
+cadenas = "Hola Mundo, como les va? Como los trata la vida?"
+print(cadenas)
+print("Upper:", cadenas.upper())
+print("Lower: ", cadenas.lower())
+print("Title:", cadenas.title())
+print("Capitalize: ", cadenas. capitalize())
+print("Count: ", cadenas.count("a"))
+print("Find: ", cadenas.find("Mundo"))
+print("Rfind: ", cadenas.rfind("Como"))
+print("split: ", cadenas.split("como"))
+print("Join: ", "-".join(cadenas))
+print("Strip: ", cadenas.strip("?H"))
+print("Replace: ", cadenas.replace("Hola","Que hacen"))

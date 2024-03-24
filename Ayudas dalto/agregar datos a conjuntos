@@ -1,0 +1,7 @@
+conjunto = set(["casa", 4444, "Pedrito"])
+
+# metiendo conjuntos dentro de conjuntos
+conjunto_1 = frozenset(["SOFÁ", 56666])
+conjunto_2 = {conjunto_1, "aaaaaaa", "me salió reyyy", 23}
+
+print(conjunto_2)

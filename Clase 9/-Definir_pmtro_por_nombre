@@ -1,0 +1,15 @@
+# definir parametros por nombre
+def resta(a: int, b: int)-> int:
+    return a - b
+
+resultado = resta(b=15, a=12) #usar lo nombres de los argumentos para asignarle un lugar distinto al definido en lo parametros.
+print(resultado)
+
+# Python, nos deja asignar unos valores por defecto a los parámetros, es decir
+# indicarle que tendrán un valor por defecto si no viene ningún valor.
+
+# def resta(a=10, b=5):
+    # return a - b
+
+# resultado = resta()
+# print(resultado)
